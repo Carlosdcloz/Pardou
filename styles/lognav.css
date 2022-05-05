@@ -1,0 +1,268 @@
+.header {
+    background: linear-gradient(320deg, #000000 20% ,#00ffd9b4 150%);
+    color: white;
+    padding: 2rem 0;
+    font-family: 'Red Hat Mono', monospace;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.header a {
+
+    color: white;
+    text-decoration: none;
+}
+
+
+.logo-nav-container {
+
+    margin-left:0%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+
+    letter-spacing: 15px;
+    font-size: 1.3em;
+    margin-right: 25%;
+    color: #6e6e6e71;
+    text-shadow: 1px 2px 2px black; /*non-margin-p*/
+    font-size: 50px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.logo:hover {
+    transition: 2s;
+    
+    
+
+}
+
+.non-margin-p {
+
+    margin: 0 auto;
+    padding: 0 auto;
+    color: rgba(51, 190, 132, 0.858);
+}
+.non-margin-p:hover {
+
+    animation: animation-hover 1s normal;
+}
+
+
+.menu-icon {
+
+    display: none;
+
+}
+
+
+.navigation ul {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+
+.navigation ul li {
+
+    display: inline-block;
+
+}
+
+.navigation ul li a {
+
+    display:  block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+    position: relative;
+    color: #6e6e6e;
+    transition: 0.5s;
+    
+
+}
+
+.navigation ul li a:hover {
+    color: rgb(195, 195, 195)
+
+
+}
+
+a span {  /*button*/
+    display: block;
+    position: absolute;
+    background-color: rgb(42, 201, 193);
+
+}
+
+a span:nth-child(1){
+
+    left: 0;
+    bottom:0;
+    width: 1px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+}
+
+a:hover span:nth-child(1){
+
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+
+a span:nth-child(2){
+
+    left: 0;
+    bottom:0;
+    width: 100%;
+    height: 1px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+}
+
+a:hover span:nth-child(2){
+
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.5s;
+}
+
+a span:nth-child(3){
+
+    right: 0;
+    bottom:0;
+    width: 1px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+
+}
+
+a:hover span:nth-child(3){
+
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+
+}
+
+a span:nth-child(4){
+
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 1px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+}
+
+a:hover span:nth-child(4){
+
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+
+}
+
+@keyframes animation-hover {
+
+    0% {
+        transform: scale(0.99);
+        
+    }
+    /* 25%{
+        transform: scale(1.29);
+
+    } */
+    50% {
+
+        transform: scale(1.2);
+        color: rgb(173, 211, 209);
+        text-shadow: 5px 5px 5px rgba(81, 113, 106, 0.769);
+    }
+    /* 75%{
+
+        transform:scale(1.29);
+    } */
+    100% {
+
+        transform:scale(0.99);
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+    .menu-icon {
+
+        display: block;  
+        cursor: pointer;
+
+    }
+
+
+
+    .navigation {
+
+        width: 100%;
+
+    }
+    
+    .navigation ul {
+
+        display: none;
+
+
+    }
+
+    .navigation ul.show {
+
+        display: block;           /*para que se vea*/
+
+    }
+    
+    .navigation ul li {
+    
+        display: block;
+    
+    }
+    
+    .navigation ul li a {
+    
+        display:  block;
+        padding: 0.5rem 0;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+    }
+    
+    .navigation ul li a:hover {
+        background: #4a4a4a;
+    
+    
+    }
+    
+
+
+}
