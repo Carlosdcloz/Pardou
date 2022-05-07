@@ -5,7 +5,7 @@
 
 
 body {
-    background-color: #000000;
+    background-color: #00a87e25;
 }
 
 .flex-container{
@@ -14,32 +14,25 @@ body {
     flex-direction: row;
 }
 
-.leftbox {
-    background-color: rgb(70, 101, 101);
-    width:47%;
+.container-leftbox {
+
+    width:45%;
     height: 86%;
-    margin-top: 6.92%;
-    position:absolute ;
-    padding-bottom: 0.2%;
-    filter: blur(1.1px);
-    transition:1.5s;
+    margin-top: 14vh;
+    position:absolute;
+    margin-left: 3vh;
 }
 
-.rightbox {
-    background-color: rgb(62, 44, 44);
-    width: 52.85%;
+.container-rightbox { /*properties/rightzone!*/
+
+    width: 45%;
     height: 86%;
-    margin-top: 6.92%;
-    margin-left: 47%;
+    margin-top: 14vh;
+    margin-left: 101vh;
     position: absolute;
-    padding-left: 0;
-    padding-bottom: 0.2%;
-    border-left: 3px solid black; /*border 2 elements*/
-    filter: blur(1.1px);
-    transition:1.5s;
 }   
 
-.rightbox:hover {
+/* .rightbox:hover {
 
     transition: 1.5s;
     background-color: rgba(195, 67, 67, 0.912);
@@ -47,10 +40,9 @@ body {
     filter: blur(0px);
     transform: scale(1.0001);
   
-}
+} */
 
-
-.leftbox:hover {
+/* .leftbox:hover {
 
     transition: 1.5s;
     background-color: rgb(7, 199, 242);
@@ -58,10 +50,10 @@ body {
     filter: blur(0px);
     transform: scale(1.0001);
   
-}
+} */
 
 
-.link-left {
+/* .link-left {
     text-decoration: none;
     text-transform:uppercase;
     text-align: center;
@@ -70,25 +62,24 @@ body {
     color: #efefef;
     /* font-family: 'Bangers', cursive; */
     /* text-justify:auto; */
-    font-size:50px;
+    /* font-size:50px;
     font-family: 'Rubik Bubbles', cursive;
 
-}
+} */ 
 
-.link-right {               /*tittle*/
-    text-decoration: none;
+/* .link-right {               /*tittle*/
+    /* text-decoration: none;
     text-transform:uppercase;
     text-align: center;
     margin-left:50%;
     line-height: 600px;
     color: #efefef;
     /* font-family: 'Bangers', cursive; */
-    font-size:50px;
+    /* font-size:50px;
     font-family: 'Rubik Bubbles', cursive;
    
-    
-
-}
+     */
+/* } */
 
 
     
