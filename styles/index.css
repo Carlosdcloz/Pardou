@@ -4,7 +4,12 @@
 }
 
 body {
-    background-color: #efefee;
+    background-image: url("https://images.wallpapersden.com/image/download/purple-sunrise-4k-vaporwave_bGplZmiUmZqaraWkpJRmbmdlrWZlbWU.jpg");
+    background-color: #cccccc;
+}
 
+.home {
 
+    height: 100%;
+    margin-top: 15rem;
 }
