@@ -6,37 +6,119 @@
 
 body {
 
-    background-color: rgba(22, 173, 148, 0.362);
+    /* background-color: rgb(79, 146, 116); */
+    background:  linear-gradient(180deg, #000000 10% ,#00b499b4 150%);
+    overflow-x:hidden;
+    overflow-y:hidden;
+    max-height: 1000px;
+}
+
+.container {
+
+
+    margin-top: 13rem;
+    margin-left: 33%;
+    justify-content: center;
+
     
 }
 
+
 .form-m {
-    background-color: black;
+    /* background-color: black; */
     width: 700px;
     height: 300px;
     /* position: absolute; */
     float: left;
-    margin-top: 20rem;
-    margin-left: 8rem;
+   
 
 }
 
 .main-input {
-    border-radius: 20px;
-    background-color: rgba(65, 141, 106, 0.666);
-    transition: 0.5s;
+    border-radius: 4px;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.666);
+    transition: 0.7s;
     margin-top: 4rem;
     /* margin-left: 2rem; */
+    height: 30px;
+    margin-left: 10px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    border-color: white;
+    box-shadow: 1px 1px 6px black;
+    padding-left: 10px;
 }
 
 .main-input:hover {
 
-    background-color: rgb(34, 211, 96);
+    background-color: rgb(177, 177, 177);
+    border-color: aqua;
+    box-shadow: 1px 1px 12px rgb(194, 236, 236);
 
 }
 
+/* .main-input:focus {
+
+    background-color: rgb(110, 180, 146);
+    border-color: aqua;
+    box-shadow: 1px 1px 8px rgb(194, 236, 236);
+
+} */
+
 .form-m label {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size: 22px;
     color: white;
     margin-left: 2rem;
+}
+
+.submit {
+    width: 100px;
+    height: 50px;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 4px;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.666);
+    transition: 0.5s;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    border-color: white;
+    box-shadow: 1px 1px 6px black;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    margin-top: 50px;
+    margin-left:250px;
+    padding-left: 24.5px;
+}
+
+.submit:hover {
+
+    background-color: #ededed;
+    border-color: aqua;
+    box-shadow: 1px 1px 8px rgb(194, 236, 236);
+    transform: scale(1.03);
+    color:#000000
+
+}
+
+.submit:active {
+
+    background-color: #343434;
+    border-color: aqua;
+    box-shadow: 1px 1px 8px rgb(25, 25, 25);
+    transform: scale(1);
+    color:#a3a3a3
+
+}
+
+
+.conex {
+
+    height: 100rem;
+    /* background-color: red; */
+
 }
