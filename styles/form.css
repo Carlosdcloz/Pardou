@@ -7,7 +7,7 @@
 body {
 
     /* background-color: rgb(79, 146, 116); */
-    background:  linear-gradient(180deg, #000000 10% ,#00b499b4 150%);
+    background:  linear-gradient(150deg, #283d35 30% ,#05fed9 150%);
     overflow-x:hidden;
     overflow-y:hidden;
     max-height: 1000px;
@@ -15,10 +15,14 @@ body {
 
 .container {
 
-    margin-top: 13rem;
-    margin-left: 33%;
+    margin-top: 15rem;
+    margin-left: 13%;
     justify-content: center;
-    
+    /* background-color: red; */  /*testing box*/
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-right: 1px solid black;
 }
 
 
@@ -91,6 +95,7 @@ body {
     margin-top: 50px;
     margin-left:250px;
     padding-left: 24.5px;
+    align-items: center;
 }
 
 .submit:hover {
@@ -116,7 +121,57 @@ body {
 
 .conex {
 
-    height: 100rem;
+    height: 60rem;
     /* background-color: red; */
 
 }
+
+
+/*L0GOS*/
+
+
+.container-2 {
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    display:flex;
+    margin-left: 63%;
+    margin-bottom: 20%;
+    /* margin-left: ; */
+}
+
+.container-2 a img {   /*ig logo*/
+    margin-top: 1rem;
+    width: 125px;
+    height: 75px;
+    margin-bottom: 0;
+    
+}
+
+.container2 a .twitterLogo { 
+
+    width: 50px;
+    height: 200px;
+    
+}
+
+
+.stick img {
+    width: 1px;
+    height: 300px;
+    /* margin-left: 10rem; */
+}
+
+
+.logoBack {
+    
+    width:260px;
+    height: 105px;
+    background:  linear-gradient(0deg, #686a69 30% ,#8aeacab5 150%);
+    border-radius: 360px;
+    border: 1px solid black;
+    box-shadow: 0.5px 0.5px 6px black;
+    align-items: center;
+    justify-content: center;
+}
+
