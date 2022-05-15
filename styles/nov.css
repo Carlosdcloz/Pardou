@@ -1,0 +1,67 @@
+.novedad {
+  
+    position:relative;
+    width: 800px;
+    height: 500px;
+    background: #222;
+    margin-left: 6.8rem;
+    /* margin-top: 10rem; */
+    border: 2px solid rgb(73, 109, 100);
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px rgb(60, 50, 40);
+    transition: 1.2s;
+}
+
+.novedad:hover {
+
+    border: 2px solid rgba(59, 212, 178, 0.996);
+
+
+}
+
+    /* hacer un div enlace */
+
+.novedad .clip {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+
+}
+
+.novedad .clip.clip1{
+    background: url("/imgs/img3.jpg");
+    clip-path: polygon(0 0, 55% 0, 20% 100%, 0% 100%);
+
+
+}
+
+.novedad .clip.clip2{
+    background: url("/imgs/img1.jpg");
+    clip-path: polygon(55% 0, 100% 0, 45% 100%, 20% 100%);
+
+
+}
+
+.novedad .clip.clip3{
+    background:url("/imgs/img2.jpg");
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 45% 100%);
+
+
+}
+
+.novedad:hover .clip {
+
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+
+
+}
+
+.novedad .clip:hover{
+
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+
+}
