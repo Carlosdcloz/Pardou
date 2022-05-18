@@ -3,7 +3,7 @@
     position:relative;
     width: 800px;
     height: 500px;
-    background: #222;
+    background: url("/imgs/unknown.png");
     margin-left: 6.8rem;
     /* margin-top: 10rem; */
     border: 2px solid rgb(73, 109, 100);
