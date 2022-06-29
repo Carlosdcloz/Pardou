@@ -32,21 +32,24 @@
 }
 
 .novedad .clip.clip1{
-    background: url("/imgs/img3.jpg");
+    /* background: url("/imgs/img3.jpg"); */
+    background-color: red;
     clip-path: polygon(0 0, 55% 0, 20% 100%, 0% 100%);
 
 
 }
 
 .novedad .clip.clip2{
-    background: url("/imgs/img1.jpg");
+    /* background: url("/imgs/img1.jpg"); */
+    background-color: aqua;
     clip-path: polygon(55% 0, 100% 0, 45% 100%, 20% 100%);
 
 
 }
 
 .novedad .clip.clip3{
-    background:url("/imgs/img2.jpg");
+    /* background:url("/imgs/img2.jpg"); */
+    background-color: blueviolet;
     clip-path: polygon(100% 0, 100% 0, 100% 100%, 45% 100%);
 
 
