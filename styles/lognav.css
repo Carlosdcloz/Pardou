@@ -1,5 +1,5 @@
 .header {
-    background: linear-gradient(320deg, #000000 20% ,#00ffd9b4 150%);
+    /* background: linear-gradient(320deg, #c1d2cd 2% ,#00ffd9bd 150%); */
     color: white;
     padding: 2rem 0;
     font-family: 'Righteous', cursive;
@@ -36,7 +36,7 @@
     font-size: 1.3em;
     margin-right: 25%;
     color: #6e6e6e71;
-    text-shadow: 1px 2px 2px black; /*non-margin-p*/
+    text-shadow: 3.5px 2px 2px rgba(255, 255, 255, 0.687); /*non-margin-p*/
     font-size: 50px;
     font-family: 'Oleo Script Swash Caps', cursive;
 }
@@ -52,7 +52,7 @@
 
     margin: 0 auto;
     padding: 0 auto;
-    color: rgba(51, 190, 132, 0.858);
+    color: rgb(54, 224, 153);
 }
 .non-margin-p:hover {
 
@@ -89,14 +89,14 @@
     transition: all 0.4s linear;
     border-radius: 5px;
     position: relative;
-    color: #6e6e6e;
+    color: #01957a;
     transition: 0.5s;
     
 
 }
 
 .navigation ul li a:hover {
-    color: rgb(195, 195, 195)
+    color: rgb(232, 232, 232)
 
 
 }
@@ -104,7 +104,7 @@
 a span {  /*button*/
     display: block;
     position: absolute;
-    background-color: rgb(42, 201, 193);
+    background-color: rgba(34, 213, 180, 0.791);
 
 }
 
@@ -114,7 +114,7 @@ a span:nth-child(1){
 
     left: 0;
     bottom:0;
-    width: 1px;
+    width: 2px;
     height: 100%;
     transform: scaleY(0);
     transform-origin: top;
@@ -133,7 +133,7 @@ a span:nth-child(2){
     left: 0;
     bottom:0;
     width: 100%;
-    height: 1px;
+    height: 2px;
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 0.5s;
@@ -150,7 +150,7 @@ a span:nth-child(3){
 
     right: 0;
     bottom:0;
-    width: 1px;
+    width: 2px;
     height: 100%;
     transform: scaleY(0);
     transform-origin: top;
@@ -173,7 +173,7 @@ a span:nth-child(4){
     left: 0;
     top:0;
     width: 100%;
-    height: 1px;
+    height: 2px;
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 0.5s;
@@ -202,8 +202,8 @@ a:hover span:nth-child(4){ /*hover nav*/
     50% {
 
         transform: scale(1.2);
-        color: rgb(173, 211, 209);
-        text-shadow: 5px 5px 5px rgba(81, 113, 106, 0.769);
+        color: rgb(252, 252, 252);
+        text-shadow: 5px 5px 5px rgba(190, 208, 205, 0.769);
     }
     /* 75%{
 

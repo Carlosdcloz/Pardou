@@ -1,7 +1,8 @@
 
 
+
 body {
-    margin: 0; /*rebooting*/
+    margin: 0;
     padding: 0;
     justify-content: center;
     display: flex;
@@ -14,88 +15,15 @@ body {
 
 }
 
-h1 {
-    justify-content: center;
-    display: flex;
-
-}
 
 .container {
 
-    margin-top: 10rem;
-    /* background-color: red; */
+    margin-top: 7.8rem;
+    /* background-color: rgb(59, 133, 85); */
     height: 40rem;
-    width: 65rem;
+    width: 95rem;
+    display: flexbox;
 
 
-}
-
-.container2 {
-
-    margin-top: 10rem;
-    height: 20rem;
-    /* background-color: aquamarine;     */
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-
-.text-container {
-
-
-    color: white;
-    margin-bottom: 2.5rem;
-
-}
-
-.text-container .child {
-    font-weight: bold;
-    color:#ffffff;
-    font-style: normal;
-    font-size:60px ;
-    font-family: 'Righteous', cursive;
-
-    margin: 0;
-}
-
-.text-container .child:hover {
-
-    /* color: rgb(0, 0, 0); */
-    transition: 0.5s;
-}   
-
-.pablo{
-    color: rgb(41, 215, 134);
-    display:inline-block;
-    font-family: 'Righteous', cursive;
-
-    font-size: 75px;
-}
-
-.container3 {
-
-    height: 13rem;
-    /* background-color: aqua; */
-    /* margin-bottom: 5rem; */
-    display: flex;
-    padding-bottom: 8rem;
-
-}
-
-.stick {
-    height: 12rem;
-    width: 1px;
-    margin-left: 7rem;
-    margin-bottom: 20px;
-}
-
-
-a .social {
-
-    width: 60px;
-    height: 60px;
-    margin-left: 80%;
-    margin-top: 3rem;
 
 }

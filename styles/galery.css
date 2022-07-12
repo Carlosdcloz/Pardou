@@ -5,16 +5,122 @@ body {
     overflow-x: hidden;
 }
 
-h1 {
+section {
+    position: relative;
+    /* width: 100%; */
+    /* height: 150vh; */
+    background: url("https://cdn.discordapp.com/attachments/993552359600951488/996488105060208731/IMG-20220618-WA0000.jpg");
+    background-size: cover;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
-    margin-top: 10rem;
-    font-family: 'Alfa Slab One', cursive;
-    color: #efefee;
-    animation: normal;
-    padding: 0;
+    align-items: center;
+    clip-path: circle(160vh at 50% 0vh);
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 5rem; */
+    /* margin-top: 9.4rem; */
+    /* pointer-events: none;
+    filter: blur(20px); */
+}
+
+section .content {
+    max-width: 1000px;
+   
 
 }
+
+section .content h2 {
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+    font-family: 'Righteous', cursive;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 800;
+    z-index: 2;
+    transition: 2s;
+    display: inline;   
+    /* pointer-events: none;  */
+    cursor: pointer;
+}
+
+
+
+section .content h2:hover {
+
+    /* filter: blur(2px); */
+    /* transform: scale(1.6); */
+    color: rgb(0, 255, 183);
+
+}
+
+/*/////////section2M/////////////*/
+
+.section2 {
+    position: relative;
+    /* width: 100%; */
+    /* height: 150vh; */
+    background: url("https://cdn.discordapp.com/attachments/993552359600951488/996489892718723132/IMG-20220501-WA0012.jpg");
+    background-size:contain;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: circle(160vh at 50% 0vh);
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 5rem; */
+    /* margin-top: 9.4rem; */
+    /* pointer-events: none;
+    filter: blur(20px); */
+}
+
+.section2 .content {
+    max-width: 1000px;
+   
+
+}
+
+.section2 .content h2 {
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+    font-family: 'Righteous', cursive;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 800;
+    z-index: 2;
+    transition: 2s;
+    display: inline;   
+    /* pointer-events: none;  */
+    cursor: pointer;
+}
+
+
+
+.section2 .content h2:hover {
+
+    /* filter: blur(2px); */
+    /* transform: scale(1.6); */
+    color: rgb(0, 255, 183);
+
+}
+
+
+/*///////////////////////////////////////*/
+
+
 
 h1:hover {
     color: rgb(255, 255, 255);
@@ -49,6 +155,24 @@ h1:hover {
     opacity: 0;
     transition: opacity 0.25;
 }
+
+.p {
+
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 60px;
+    text-shadow: 3px 1px 1px rgba(0, 0, 0, 0.854);
+    /* color: rgba(54, 224, 153, 0.541); */
+    margin: 0;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.p:hover {
+
+    transform: scale(1.25);
+
+}
+
 
 .img-overlay--blur {
 

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tittle {
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    /* margin-: ; */
+}
+
+
+.number {
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+}
+
+.number label {
+
+
+    margin-top: 20px;
+
+
+}
+
+.password {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+
+.password label{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+

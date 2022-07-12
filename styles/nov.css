@@ -1,10 +1,10 @@
 .novedad {
   
     position:relative;
-    width: 800px;
-    height: 500px;
-    background: url("/imgs/unknown.png");
-    margin-left: 6.8rem;
+    width: 850px;
+    height: 550px;
+    /* background: url("/imgs/unknown.png"); */
+    /* margin-left: 6.8rem; */
     /* margin-top: 10rem; */
     border: 2px solid rgb(73, 109, 100);
     border-radius: 4px;
@@ -32,24 +32,23 @@
 }
 
 .novedad .clip.clip1{
-    /* background: url("/imgs/img3.jpg"); */
-    background-color: red;
+    background: url("https://cdn.discordapp.com/attachments/993552359600951488/996521318398836806/IMG-20220112-WA0029.jpg");
+    /* background-color: red; */
     clip-path: polygon(0 0, 55% 0, 20% 100%, 0% 100%);
-
-
+    
 }
 
 .novedad .clip.clip2{
-    /* background: url("/imgs/img1.jpg"); */
-    background-color: aqua;
+    background: url("https://cdn.discordapp.com/attachments/993552359600951488/996520664561364992/IMG-20220112-WA0033.jpg");
+    /* background-color: aqua; */
     clip-path: polygon(55% 0, 100% 0, 45% 100%, 20% 100%);
 
 
 }
 
 .novedad .clip.clip3{
-    /* background:url("/imgs/img2.jpg"); */
-    background-color: blueviolet;
+    background:url("https://cdn.discordapp.com/attachments/993552359600951488/996521318633721917/IMG-20220112-WA0032.jpg");
+    /* background-color: blueviolet; */
     clip-path: polygon(100% 0, 100% 0, 100% 100%, 45% 100%);
 
 
