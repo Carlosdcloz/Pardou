@@ -15,6 +15,23 @@
     text-decoration: none;
 }
 
+.header2 {
+    /* background: linear-gradient(320deg, #c1d2cd 2% ,#00ffd9bd 150%); */
+    color: white;
+    padding: 2rem 0;
+    font-family: 'Righteous', cursive;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.header2 a {
+
+    color: white;
+    text-decoration: none;
+}
+
 /* .header a:hover {
 
     transform: scale(1.04);
