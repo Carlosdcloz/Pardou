@@ -55,13 +55,19 @@ window.sr = ScrollReveal();
     distance: '0px'
   });
 
+  window.sr = ScrollReveal();
+  sr.reveal('.container-carr', {
+    duration: 3500,
+    origin: 'top',
+    distance: '0px'
+  });
 
-//   window.sr = ScrollReveal();
-//   sr.reveal('.container3', {
-//     duration: 2500,
-//     origin: 'bottom',
-//     distance: '-300'
-//   });
+  window.sr = ScrollReveal();
+  sr.reveal('.container-C', {
+    duration: 2500,
+    origin: 'bottom',
+    distance: '-300'
+  });
 
 
 

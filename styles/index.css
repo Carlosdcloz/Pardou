@@ -176,3 +176,14 @@ ul {
 
 }
 
+.gmail {
+
+    width: 80px;
+    height: 80px;
+    display: flex;
+    float: right;
+    position:relative;
+    margin-left: 80px;
+    margin-top:38px;
+
+}
